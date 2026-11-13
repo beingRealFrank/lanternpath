@@ -22,7 +22,7 @@ export type Trace = {
   end: { kind: 'exit' | 'wall' | 'loop'; cell: number; dir: Dir };
 };
 
-// Day 1 is 2026-11-13 (UTC), the same calendar as Shardline.
+// Day 1 is 2026-11-13 (UTC).
 const EPOCH_UTC = Date.UTC(2026, 10, 13);
 const DAY_MS = 86_400_000;
 export const dayNumber = (now: number): number => Math.floor((now - EPOCH_UTC) / DAY_MS) + 1;

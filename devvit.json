@@ -1,6 +1,6 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
-  "name": "lanternpath",
+  "name": "lanternpath-game",
   "post": {
     "dir": "dist/client",
     "entrypoints": {
